@@ -3,7 +3,7 @@ class Node{
   	this.data = data;
     this.next = null;
   }
-}
+};
 
 class LinkedList{
 	constructor(){
@@ -75,8 +75,44 @@ class LinkedList{
       return;
     }
   }
+  
+  getHeadPointer(){
+  	let current = this.head;
+    return current;
+  }
 
-}
+};
+
+
+
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+function reverseList (head) {
+    if(!head){
+        return head;
+    } else{
+        let prev = null, curr = null, next = null;
+        curr = head;
+        while(curr.next !== null){
+            next = curr.next;
+            curr.next = prev;
+
+            prev = curr;
+            curr = next;
+        }
+        curr.next = prev;
+        return curr;
+    }
+};
 
 
 const linkedList = new LinkedList();
@@ -89,3 +125,8 @@ linkedList.delete(20);
 linkedList.print(); 
 console.log(linkedList.search(10));
 console.log(linkedList.search(50));
+console.log("**************************")
+linkedList.print();
+let headPointer = linkedList.getHeadPointer();
+let reversedHead = reverseList(headPointer);
+console.log(reversedHead);
