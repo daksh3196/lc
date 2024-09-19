@@ -9,3 +9,6 @@ Writing down my Leetcode daily problems and solutions
 - Problem 3: Reverse a Linked List
 - Problem 4: Add 2 numbers in linked list
 - Problem 5: Longest substring without repeating characters
+- Problem 6: Median of 2 sorted arrays
+- Problem 7: DP: Fibonacci
+- Problem 8: DP : Factorial
