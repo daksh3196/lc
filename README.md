@@ -14,3 +14,4 @@ Writing down my Leetcode daily problems and solutions
 - Problem 8: DP : Factorial
 - Problem 9: Longest Palindrome: Naiive
 - Problem 10: Longest Palindrome: DP
+- Problem 11: Recursive check if subsequence exist in string
