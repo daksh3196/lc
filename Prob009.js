@@ -34,5 +34,5 @@ function longestPalSubstr(s) {
 }
 
 // Driver Code
-const s = "forgeeksskeegfor";
+const s = "abccacca";
 console.log(longestPalSubstr(s));

@@ -12,4 +12,5 @@ Writing down my Leetcode daily problems and solutions
 - Problem 6: Median of 2 sorted arrays
 - Problem 7: DP: Fibonacci
 - Problem 8: DP : Factorial
-- Problem 9: Palindrome: Naiive
+- Problem 9: Longest Palindrome: Naiive
+- Problem 10: Longest Palindrome: DP
