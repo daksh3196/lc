@@ -19,3 +19,4 @@ Writing down my Leetcode daily problems and solutions
 - Problem 13: ZigZag COnversion
 - Problem 14: Reverse a number with unbound exception handling
 - Problem 15: atoi::string to integer 
+- Problem 16: climbing stairs: 1 or 2 at a time
